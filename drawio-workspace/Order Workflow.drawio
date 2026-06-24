@@ -155,20 +155,6 @@
         <mxCell id="jQCsffpuLkgTT5c4SlJs-15" parent="Abbv7D0ucnFepgTgGXwM-144" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.stickyNote2;fontColor=#ffffff;mainText=;fontSize=17;whiteSpace=wrap;fillColor=#6d8764;strokeColor=#3A5431;" value="Repri is the machine in the FishBowl office" vertex="1">
           <mxGeometry height="134.87" width="150" x="545.13" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="Abbv7D0ucnFepgTgGXwM-133" edge="1" parent="1" source="Abbv7D0ucnFepgTgGXwM-78" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.466;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="Abbv7D0ucnFepgTgGXwM-50">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="580" y="970" />
-              <mxPoint x="580" y="680" />
-              <mxPoint x="520" y="680" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Abbv7D0ucnFepgTgGXwM-134" connectable="0" parent="Abbv7D0ucnFepgTgGXwM-133" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;LabWorks Order&lt;/div&gt;&lt;div&gt;XML Files&lt;/div&gt;" vertex="1">
-          <mxGeometry relative="1" x="0.2484" y="-1" as="geometry">
-            <mxPoint x="-7" y="88" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Abbv7D0ucnFepgTgGXwM-116" edge="1" parent="1" source="Abbv7D0ucnFepgTgGXwM-49" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.484;entryY=0.048;entryDx=0;entryDy=0;entryPerimeter=0;" target="Abbv7D0ucnFepgTgGXwM-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -234,14 +220,6 @@
             <mxPoint x="2" y="20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jQCsffpuLkgTT5c4SlJs-21" edge="1" parent="1" source="Abbv7D0ucnFepgTgGXwM-50" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.492;entryDx=0;entryDy=0;entryPerimeter=0;" target="jQCsffpuLkgTT5c4SlJs-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="jQCsffpuLkgTT5c4SlJs-22" connectable="0" parent="jQCsffpuLkgTT5c4SlJs-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Remote Orders" vertex="1">
-          <mxGeometry relative="1" x="0.0106" y="3" as="geometry">
-            <mxPoint x="17" y="4" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="jQCsffpuLkgTT5c4SlJs-23" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;network2Icon=mxgraph.networks2.pc;network2IconYOffset=-0.0593;network2IconW=0.9999;network2IconH=0.7096;" value="Front Desk" vertex="1">
           <mxGeometry height="60.48" width="85.22" x="698.72" y="390" as="geometry" />
         </mxCell>
@@ -289,6 +267,28 @@
         </mxCell>
         <mxCell id="jQCsffpuLkgTT5c4SlJs-20" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#b1ddf0;strokeColor=#10739e;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.desktop_pc;network2IconXOffset=-0.0034;network2IconYOffset=0.00035;network2IconW=0.453;network2IconH=0.9995;" value="LabWorks" vertex="1">
           <mxGeometry height="112.05" width="50.79" x="715.94" y="508.97" as="geometry" />
+        </mxCell>
+        <mxCell id="Abbv7D0ucnFepgTgGXwM-133" edge="1" parent="1" source="Abbv7D0ucnFepgTgGXwM-78" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.466;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="Abbv7D0ucnFepgTgGXwM-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="970" />
+              <mxPoint x="580" y="680" />
+              <mxPoint x="520" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Abbv7D0ucnFepgTgGXwM-134" connectable="0" parent="Abbv7D0ucnFepgTgGXwM-133" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;LabWorks Order&lt;/div&gt;&lt;div&gt;XML Files&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2484" y="-1" as="geometry">
+            <mxPoint x="-7" y="88" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jQCsffpuLkgTT5c4SlJs-21" edge="1" parent="1" source="Abbv7D0ucnFepgTgGXwM-50" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.492;entryDx=0;entryDy=0;entryPerimeter=0;" target="jQCsffpuLkgTT5c4SlJs-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQCsffpuLkgTT5c4SlJs-22" connectable="0" parent="jQCsffpuLkgTT5c4SlJs-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Remote Orders" vertex="1">
+          <mxGeometry relative="1" x="0.0106" y="3" as="geometry">
+            <mxPoint x="17" y="4" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

@@ -265,7 +265,7 @@
             <mxPoint x="742" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jQCsffpuLkgTT5c4SlJs-20" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#b1ddf0;strokeColor=#10739e;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.desktop_pc;network2IconXOffset=-0.0034;network2IconYOffset=0.00035;network2IconW=0.453;network2IconH=0.9995;" value="LabWorks" vertex="1">
+        <mxCell id="jQCsffpuLkgTT5c4SlJs-20" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#b1ddf0;strokeColor=#10739e;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.desktop_pc;network2IconXOffset=-0.0034;network2IconYOffset=0.00035;network2IconW=0.453;network2IconH=0.9995;" value="LabWorks&#xa;(Server2000)" vertex="1">
           <mxGeometry height="112.05" width="50.79" x="715.94" y="508.97" as="geometry" />
         </mxCell>
         <mxCell id="Abbv7D0ucnFepgTgGXwM-133" edge="1" parent="1" source="Abbv7D0ucnFepgTgGXwM-78" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.466;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="Abbv7D0ucnFepgTgGXwM-50">

@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="External Order Intake" id="xOiFyvTx0ugd0xP541Ys">
-    <mxGraphModel dx="2828" dy="1490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1607" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -59,7 +59,7 @@
         <mxCell id="Abbv7D0ucnFepgTgGXwM-63" connectable="0" parent="1" style="group;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" value=" " vertex="1">
           <mxGeometry height="230" width="514.8699999999999" x="220" y="410" as="geometry" />
         </mxCell>
-        <mxCell id="Abbv7D0ucnFepgTgGXwM-58" parent="Abbv7D0ucnFepgTgGXwM-63" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" value="&amp;nbsp;" vertex="1">
+        <mxCell id="Abbv7D0ucnFepgTgGXwM-58" parent="Abbv7D0ucnFepgTgGXwM-63" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" value=" " vertex="1">
           <mxGeometry height="230" width="380" as="geometry" />
         </mxCell>
         <mxCell id="Abbv7D0ucnFepgTgGXwM-61" edge="1" parent="Abbv7D0ucnFepgTgGXwM-63" source="Abbv7D0ucnFepgTgGXwM-48" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Abbv7D0ucnFepgTgGXwM-49">
@@ -74,14 +74,14 @@
         <mxCell id="Abbv7D0ucnFepgTgGXwM-50" parent="Abbv7D0ucnFepgTgGXwM-63" style="fillColorStyles=neutralFill;neutralFill=#9DA6A8;shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;network2Icon=mxgraph.networks2.server;network2IconW=1.0001;network2IconH=0.5812;" value="Server2000" vertex="1">
           <mxGeometry height="50" width="86.04" x="260" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="Abbv7D0ucnFepgTgGXwM-53" edge="1" parent="Abbv7D0ucnFepgTgGXwM-63" source="Abbv7D0ucnFepgTgGXwM-50" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.968;entryY=0.578;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;dashed=1;exitX=-0.005;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;" target="Abbv7D0ucnFepgTgGXwM-49" value=" ">
+        <mxCell id="Abbv7D0ucnFepgTgGXwM-53" edge="1" parent="Abbv7D0ucnFepgTgGXwM-63" source="Abbv7D0ucnFepgTgGXwM-50" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.968;entryY=0.578;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;dashed=1;exitX=0.003;exitY=0.518;exitDx=0;exitDy=0;exitPerimeter=0;" value=" ">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="240" y="158" />
-              <mxPoint x="240" y="130" />
-              <mxPoint x="120" y="130" />
-              <mxPoint x="120" y="155" />
+              <mxPoint x="100" y="156" />
+              <mxPoint x="100" y="155" />
             </Array>
+            <mxPoint x="259.9998" y="157.5" as="sourcePoint" />
+            <mxPoint x="98.41376000000008" y="154.68000000000006" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Abbv7D0ucnFepgTgGXwM-57" connectable="0" parent="Abbv7D0ucnFepgTgGXwM-53" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Directory Ingestion" vertex="1">
@@ -211,6 +211,9 @@
         </mxCell>
         <mxCell id="Abbv7D0ucnFepgTgGXwM-143" parent="Abbv7D0ucnFepgTgGXwM-144" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h1&gt;Order Processing&lt;/h1&gt;" vertex="1">
           <mxGeometry height="30" width="320" x="160" as="geometry" />
+        </mxCell>
+        <mxCell id="aD-okcZOxhMRasSAFMCW-1" parent="Abbv7D0ucnFepgTgGXwM-144" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;rounded=0;glass=0;shadow=1;" value="Repri is the machine located in the Fishbowl office. It is responsible for most of the ROES server image processing." vertex="1">
+          <mxGeometry height="130.26" width="130.26" x="540" y="80" as="geometry" />
         </mxCell>
         <mxCell id="Abbv7D0ucnFepgTgGXwM-133" edge="1" parent="1" source="Abbv7D0ucnFepgTgGXwM-78" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.953;entryY=0.974;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="Abbv7D0ucnFepgTgGXwM-50">
           <mxGeometry relative="1" as="geometry">

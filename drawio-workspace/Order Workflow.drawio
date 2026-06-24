@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="External Order Intake" id="xOiFyvTx0ugd0xP541Ys">
-    <mxGraphModel dx="2732" dy="1594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="781" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,21 +11,13 @@
           <mxGeometry height="287.3170731707317" width="470.00000000000006" y="22.682926829268293" as="geometry" />
         </mxCell>
         <mxCell id="uFVznFZ-sdEEhWdo_pJ7-23" parent="Abbv7D0ucnFepgTgGXwM-46" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;network2Icon=mxgraph.networks2.cloud;network2IconYOffset=-0.08;network2IconW=1.0004;network2IconH=0.7222;" value="GotPhoto" vertex="1">
-          <mxGeometry height="71.18410700236036" width="98.6029307631786" x="352.5" y="75.60975609756099" as="geometry" />
+          <mxGeometry height="63.96" width="88.6" x="370" y="60" as="geometry" />
         </mxCell>
         <mxCell id="uFVznFZ-sdEEhWdo_pJ7-26" parent="Abbv7D0ucnFepgTgGXwM-46" style="fillColorStyles=neutralFill;neutralFill=#9DA6A8;shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.server;network2IconW=1.0001;network2IconH=0.5812;" value="ROES&#xa;Backend Servers" vertex="1">
           <mxGeometry height="45.29897718332022" width="77.94659716758459" x="228.46569444444447" y="204.14634146341464" as="geometry" />
         </mxCell>
         <mxCell id="uFVznFZ-sdEEhWdo_pJ7-27" edge="1" parent="Abbv7D0ucnFepgTgGXwM-46" source="uFVznFZ-sdEEhWdo_pJ7-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.594;entryDx=0;entryDy=0;entryPerimeter=0;" target="uFVznFZ-sdEEhWdo_pJ7-26">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="uFVznFZ-sdEEhWdo_pJ7-28" edge="1" parent="Abbv7D0ucnFepgTgGXwM-46" source="uFVznFZ-sdEEhWdo_pJ7-23" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.996;entryY=0.571;entryDx=0;entryDy=0;entryPerimeter=0;" target="uFVznFZ-sdEEhWdo_pJ7-26">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Abbv7D0ucnFepgTgGXwM-47" connectable="0" parent="uFVznFZ-sdEEhWdo_pJ7-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Open Roes Bridge (ORB)" vertex="1">
-          <mxGeometry relative="1" x="0.0605" y="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="Abbv7D0ucnFepgTgGXwM-3" parent="Abbv7D0ucnFepgTgGXwM-46" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;h1&gt;External Order Intake&lt;/h1&gt;" vertex="1">
           <mxGeometry height="22.68" width="407.36" x="32.64" as="geometry" />
@@ -47,6 +39,9 @@
         </mxCell>
         <mxCell id="uFVznFZ-sdEEhWdo_pJ7-25" parent="Abbv7D0ucnFepgTgGXwM-45" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ROES Web" vertex="1">
           <mxGeometry height="25.70731707317073" width="72.3076923076923" x="81.34615384615385" as="geometry" />
+        </mxCell>
+        <mxCell id="jQCsffpuLkgTT5c4SlJs-1" parent="Abbv7D0ucnFepgTgGXwM-46" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;network2Icon=mxgraph.networks2.cloud;network2IconYOffset=-0.08;network2IconW=1.0004;network2IconH=0.7222;" value="HelloDancer" vertex="1">
+          <mxGeometry height="60" width="83.11" x="280" y="30" as="geometry" />
         </mxCell>
         <mxCell id="Abbv7D0ucnFepgTgGXwM-59" edge="1" parent="1" source="uFVznFZ-sdEEhWdo_pJ7-26" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.535;entryY=0.039;entryDx=0;entryDy=0;entryPerimeter=0;" target="Abbv7D0ucnFepgTgGXwM-48">
           <mxGeometry relative="1" as="geometry" />
@@ -260,6 +255,18 @@
           <mxGeometry height="30" width="220" x="30" as="geometry" />
         </mxCell>
         <mxCell id="Abbv7D0ucnFepgTgGXwM-136" edge="1" parent="1" source="Abbv7D0ucnFepgTgGXwM-87" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.507;entryY=-0.018;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Abbv7D0ucnFepgTgGXwM-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQCsffpuLkgTT5c4SlJs-11" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=9;" value="&lt;div&gt;Open Roes Bridge&lt;/div&gt;&lt;div&gt;(ORB)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="450" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="jQCsffpuLkgTT5c4SlJs-12" edge="1" parent="1" source="jQCsffpuLkgTT5c4SlJs-1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="jQCsffpuLkgTT5c4SlJs-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQCsffpuLkgTT5c4SlJs-13" edge="1" parent="1" source="uFVznFZ-sdEEhWdo_pJ7-23" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="jQCsffpuLkgTT5c4SlJs-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQCsffpuLkgTT5c4SlJs-14" edge="1" parent="1" source="jQCsffpuLkgTT5c4SlJs-11" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.005;entryY=0.545;entryDx=0;entryDy=0;entryPerimeter=0;" target="uFVznFZ-sdEEhWdo_pJ7-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>

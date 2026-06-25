@@ -478,7 +478,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="r_ZJeCL6YchzZtUCJ4Ck" name="Lifecycle Swimlane">
-    <mxGraphModel dx="1607" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1366" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -490,22 +490,22 @@
         <mxCell id="T4Uma_Gl5So71yVu4-01-2" parent="T4Uma_Gl5So71yVu4-01-1" style="swimlane;html=1;startSize=20;" value="Cloud" vertex="1">
           <mxGeometry height="540" width="160" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="T4Uma_Gl5So71yVu4-01-9" parent="T4Uma_Gl5So71yVu4-01-2" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Customer Order" vertex="1">
+        <mxCell id="T4Uma_Gl5So71yVu4-01-9" parent="T4Uma_Gl5So71yVu4-01-2" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fad7ac;strokeColor=#b46504;" value="Customer Order" vertex="1">
           <mxGeometry height="80" width="120" x="20" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="T4Uma_Gl5So71yVu4-01-12" parent="T4Uma_Gl5So71yVu4-01-2" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Internal Order" vertex="1">
+        <mxCell id="T4Uma_Gl5So71yVu4-01-12" parent="T4Uma_Gl5So71yVu4-01-2" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fad7ac;strokeColor=#b46504;" value="Internal Order" vertex="1">
           <mxGeometry height="80" width="120" x="20" y="180" as="geometry" />
         </mxCell>
-        <mxCell id="T4Uma_Gl5So71yVu4-01-36" parent="T4Uma_Gl5So71yVu4-01-2" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="ORB Orders" vertex="1">
+        <mxCell id="T4Uma_Gl5So71yVu4-01-36" parent="T4Uma_Gl5So71yVu4-01-2" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" value="3RD party client orders" vertex="1">
           <mxGeometry height="80" width="120" x="20" y="300" as="geometry" />
         </mxCell>
         <mxCell id="T4Uma_Gl5So71yVu4-01-3" parent="T4Uma_Gl5So71yVu4-01-1" style="swimlane;html=1;startSize=20;" value="ROES" vertex="1">
           <mxGeometry height="540" width="210" x="160" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="T4Uma_Gl5So71yVu4-01-10" parent="T4Uma_Gl5So71yVu4-01-3" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Order + Product Data" vertex="1">
+        <mxCell id="T4Uma_Gl5So71yVu4-01-10" parent="T4Uma_Gl5So71yVu4-01-3" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fad7ac;strokeColor=#b46504;" value="Order + Product Data" vertex="1">
           <mxGeometry height="80" width="120" x="45" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="T4Uma_Gl5So71yVu4-01-30" parent="T4Uma_Gl5So71yVu4-01-3" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="AWS Buckets" vertex="1">
+        <mxCell id="T4Uma_Gl5So71yVu4-01-30" parent="T4Uma_Gl5So71yVu4-01-3" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" value="AWS Buckets" vertex="1">
           <mxGeometry height="80" width="120" x="70" y="300" as="geometry" />
         </mxCell>
         <mxCell id="T4Uma_Gl5So71yVu4-01-31" edge="1" parent="T4Uma_Gl5So71yVu4-01-3" source="T4Uma_Gl5So71yVu4-01-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.967;exitY=0.875;exitDx=0;exitDy=0;exitPerimeter=0;" target="T4Uma_Gl5So71yVu4-01-30">
@@ -514,44 +514,50 @@
         <mxCell id="T4Uma_Gl5So71yVu4-01-4" parent="T4Uma_Gl5So71yVu4-01-1" style="swimlane;html=1;startSize=20;" value="RAID 1" vertex="1">
           <mxGeometry height="540" width="150" x="370" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="T4Uma_Gl5So71yVu4-01-14" parent="T4Uma_Gl5So71yVu4-01-4" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="/`incoming orders" vertex="1">
+        <mxCell id="T4Uma_Gl5So71yVu4-01-14" parent="T4Uma_Gl5So71yVu4-01-4" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#b0e3e6;strokeColor=#0e8088;" value="/`incoming orders" vertex="1">
           <mxGeometry height="80" width="60" x="45" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="T4Uma_Gl5So71yVu4-01-38" parent="T4Uma_Gl5So71yVu4-01-4" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Permanent Workflow Files" vertex="1">
+        <mxCell id="T4Uma_Gl5So71yVu4-01-38" parent="T4Uma_Gl5So71yVu4-01-4" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#b1ddf0;strokeColor=#10739e;" value="Permanent Workflow Files" vertex="1">
           <mxGeometry height="80" width="60" x="45" y="180" as="geometry" />
         </mxCell>
         <mxCell id="T4Uma_Gl5So71yVu4-01-6" parent="T4Uma_Gl5So71yVu4-01-1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" value="Server2000" vertex="1">
           <mxGeometry height="540" width="150" x="520" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="T4Uma_Gl5So71yVu4-01-16" parent="T4Uma_Gl5So71yVu4-01-6" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Order Intake" vertex="1">
+        <mxCell id="T4Uma_Gl5So71yVu4-01-16" parent="T4Uma_Gl5So71yVu4-01-6" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d0cee2;strokeColor=#56517e;" value="Order Intake" vertex="1">
           <mxGeometry height="60" width="120" x="15" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="T4Uma_Gl5So71yVu4-01-27" parent="T4Uma_Gl5So71yVu4-01-6" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Labworks" vertex="1">
+        <mxCell id="T4Uma_Gl5So71yVu4-01-27" parent="T4Uma_Gl5So71yVu4-01-6" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#bac8d3;strokeColor=#23445d;" value="Labworks" vertex="1">
           <mxGeometry height="80" width="80" x="35" y="440" as="geometry" />
         </mxCell>
         <mxCell id="T4Uma_Gl5So71yVu4-01-7" parent="T4Uma_Gl5So71yVu4-01-1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" value="RAID 26" vertex="1">
           <mxGeometry height="540" width="200" x="670" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="T4Uma_Gl5So71yVu4-01-17" parent="T4Uma_Gl5So71yVu4-01-7" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Order .RO files" vertex="1">
+        <mxCell id="T4Uma_Gl5So71yVu4-01-17" parent="T4Uma_Gl5So71yVu4-01-7" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fad7ac;strokeColor=#b46504;" value="Order .RO files" vertex="1">
           <mxGeometry height="80" width="120" x="40" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="T4Uma_Gl5So71yVu4-01-22" parent="T4Uma_Gl5So71yVu4-01-7" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Order Images" vertex="1">
-          <mxGeometry height="80" width="120" x="40" y="270" as="geometry" />
+        <mxCell id="T4Uma_Gl5So71yVu4-01-22" parent="T4Uma_Gl5So71yVu4-01-7" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fad7ac;strokeColor=#b46504;" value="Order Images" vertex="1">
+          <mxGeometry height="80" width="120" x="50" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="T4Uma_Gl5So71yVu4-01-8" parent="T4Uma_Gl5So71yVu4-01-1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" value="&amp;nbsp; &amp;nbsp;" vertex="1">
+        <mxCell id="T4Uma_Gl5So71yVu4-01-8" parent="T4Uma_Gl5So71yVu4-01-1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" value="Repri" vertex="1">
           <mxGeometry height="540" width="190" x="870" y="20" as="geometry" />
         </mxCell>
         <mxCell id="T4Uma_Gl5So71yVu4-01-29" edge="1" parent="T4Uma_Gl5So71yVu4-01-8" source="T4Uma_Gl5So71yVu4-01-20" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.883;exitY=0.967;exitDx=0;exitDy=0;exitPerimeter=0;" target="T4Uma_Gl5So71yVu4-01-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T4Uma_Gl5So71yVu4-01-20" parent="T4Uma_Gl5So71yVu4-01-8" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Image Retreival" vertex="1">
-          <mxGeometry height="60" width="120" x="40" y="180" as="geometry" />
+        <mxCell id="T4Uma_Gl5So71yVu4-01-20" parent="T4Uma_Gl5So71yVu4-01-8" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fad9d5;strokeColor=#ae4132;" value="Image Retreival" vertex="1">
+          <mxGeometry height="60" width="120" x="60" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="T4Uma_Gl5So71yVu4-01-24" parent="T4Uma_Gl5So71yVu4-01-8" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Order Rendering" vertex="1">
+        <mxCell id="T4Uma_Gl5So71yVu4-01-24" parent="T4Uma_Gl5So71yVu4-01-8" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fad9d5;strokeColor=#ae4132;" value="Order Rendering" vertex="1">
           <mxGeometry height="60" width="120" x="20" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="T4Uma_Gl5So71yVu4-01-26" parent="T4Uma_Gl5So71yVu4-01-8" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="LabWorks XML generator" vertex="1">
-          <mxGeometry height="60" width="120" x="35" y="450" as="geometry" />
+        <mxCell id="T4Uma_Gl5So71yVu4-01-26" parent="T4Uma_Gl5So71yVu4-01-8" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fad9d5;strokeColor=#ae4132;" value="LabWorks XML generator" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="T4Uma_Gl5So71yVu4-01-53" edge="1" parent="T4Uma_Gl5So71yVu4-01-8" source="T4Uma_Gl5So71yVu4-01-52" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="T4Uma_Gl5So71yVu4-01-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T4Uma_Gl5So71yVu4-01-52" parent="T4Uma_Gl5So71yVu4-01-8" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#b1ddf0;strokeColor=#10739e;" value="Product Templates" vertex="1">
+          <mxGeometry height="80" width="60" x="50" y="230" as="geometry" />
         </mxCell>
         <mxCell id="T4Uma_Gl5So71yVu4-01-11" edge="1" parent="T4Uma_Gl5So71yVu4-01-1" source="T4Uma_Gl5So71yVu4-01-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="T4Uma_Gl5So71yVu4-01-10">
           <mxGeometry relative="1" as="geometry" />
@@ -586,6 +592,11 @@
         <mxCell id="T4Uma_Gl5So71yVu4-01-37" edge="1" parent="T4Uma_Gl5So71yVu4-01-1" source="T4Uma_Gl5So71yVu4-01-36" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="T4Uma_Gl5So71yVu4-01-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="T4Uma_Gl5So71yVu4-01-41" connectable="0" parent="T4Uma_Gl5So71yVu4-01-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="ORB" vertex="1">
+          <mxGeometry relative="1" x="0.0892" y="27" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="T4Uma_Gl5So71yVu4-01-39" edge="1" parent="T4Uma_Gl5So71yVu4-01-1" source="T4Uma_Gl5So71yVu4-01-38" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="T4Uma_Gl5So71yVu4-01-24">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -595,10 +606,31 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="T4Uma_Gl5So71yVu4-01-34" parent="1" style="fillColorStyles=neutralFill;neutralFill=#9DA6A8;shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.printer;network2IconW=1;network2IconH=1.04;" value="Order Fulfillment" vertex="1">
-          <mxGeometry height="120" width="115.38" x="1150" y="370" as="geometry" />
+          <mxGeometry height="120" width="115.38" x="1130" y="460" as="geometry" />
         </mxCell>
-        <mxCell id="T4Uma_Gl5So71yVu4-01-35" edge="1" parent="1" source="T4Uma_Gl5So71yVu4-01-24" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.009;entryY=0.517;entryDx=0;entryDy=0;entryPerimeter=0;" target="T4Uma_Gl5So71yVu4-01-34">
+        <mxCell id="T4Uma_Gl5So71yVu4-01-35" edge="1" parent="1" source="T4Uma_Gl5So71yVu4-01-24" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.433;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="T4Uma_Gl5So71yVu4-01-34">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T4Uma_Gl5So71yVu4-01-42" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Color Key" vertex="1">
+          <mxGeometry height="330" width="140" x="1130" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T4Uma_Gl5So71yVu4-01-49" parent="T4Uma_Gl5So71yVu4-01-42" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shadow=0;dashed=0;strokeWidth=1;strokeColor=#b46504;shape=rect;fillColor=#fad7ac;labelPosition=center;align=center;" value="Order File" vertex="1">
+          <mxGeometry height="50" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T4Uma_Gl5So71yVu4-01-51" parent="T4Uma_Gl5So71yVu4-01-42" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shadow=0;dashed=0;strokeWidth=1;strokeColor=#10739e;shape=rect;fillColor=#b1ddf0;labelPosition=center;align=center;" value="Static File" vertex="1">
+          <mxGeometry height="50" width="140" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T4Uma_Gl5So71yVu4-01-50" parent="T4Uma_Gl5So71yVu4-01-42" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shadow=0;dashed=0;strokeWidth=1;strokeColor=#56517e;shape=rect;fillColor=#d0cee2;labelPosition=center;align=center;" value="&lt;div&gt;ROES automated&amp;nbsp;&lt;/div&gt;&lt;div&gt;process&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="140" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="T4Uma_Gl5So71yVu4-01-46" parent="T4Uma_Gl5So71yVu4-01-42" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shadow=0;dashed=0;strokeWidth=1;strokeColor=#0e8088;shape=rect;fillColor=#b0e3e6;labelPosition=center;align=center;" value="Storage Location" vertex="1">
+          <mxGeometry height="50" width="140" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="T4Uma_Gl5So71yVu4-01-48" parent="T4Uma_Gl5So71yVu4-01-42" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shadow=0;dashed=0;strokeWidth=1;strokeColor=#ae4132;shape=rect;fillColor=#fad9d5;labelPosition=center;align=center;" value="ROES Workflow" vertex="1">
+          <mxGeometry height="50" width="140" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="T4Uma_Gl5So71yVu4-01-54" parent="T4Uma_Gl5So71yVu4-01-42" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shadow=0;dashed=0;strokeWidth=1;strokeColor=#23445d;shape=rect;fillColor=#bac8d3;labelPosition=center;align=center;" value="Software" vertex="1">
+          <mxGeometry height="50" width="140" y="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

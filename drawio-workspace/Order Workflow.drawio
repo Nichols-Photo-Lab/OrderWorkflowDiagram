@@ -482,12 +482,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="T4Uma_Gl5So71yVu4-01-1" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;whiteSpace=wrap;" value="Order Lifecycle" vertex="1">
+        <mxCell id="T4Uma_Gl5So71yVu4-01-1" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;whiteSpace=wrap;fillColor=#eeeeee;strokeColor=#36393d;" value="Order Lifecycle" vertex="1">
           <mxGeometry height="560" width="1060" x="40" y="40" as="geometry">
             <mxRectangle height="30" width="60" x="40" y="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T4Uma_Gl5So71yVu4-01-2" parent="T4Uma_Gl5So71yVu4-01-1" style="swimlane;html=1;startSize=20;" value="Cloud" vertex="1">
+        <mxCell id="T4Uma_Gl5So71yVu4-01-2" parent="T4Uma_Gl5So71yVu4-01-1" style="swimlane;html=1;startSize=20;fillColor=#fad9d5;strokeColor=#ae4132;" value="Cloud" vertex="1">
           <mxGeometry height="540" width="160" y="20" as="geometry" />
         </mxCell>
         <mxCell id="T4Uma_Gl5So71yVu4-01-9" parent="T4Uma_Gl5So71yVu4-01-2" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fad7ac;strokeColor=#b46504;" value="Customer Order" vertex="1">
@@ -499,7 +499,7 @@
         <mxCell id="T4Uma_Gl5So71yVu4-01-36" parent="T4Uma_Gl5So71yVu4-01-2" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" value="3RD party client orders" vertex="1">
           <mxGeometry height="80" width="120" x="20" y="300" as="geometry" />
         </mxCell>
-        <mxCell id="T4Uma_Gl5So71yVu4-01-3" parent="T4Uma_Gl5So71yVu4-01-1" style="swimlane;html=1;startSize=20;" value="ROES" vertex="1">
+        <mxCell id="T4Uma_Gl5So71yVu4-01-3" parent="T4Uma_Gl5So71yVu4-01-1" style="swimlane;html=1;startSize=20;fillColor=#fad7ac;strokeColor=#b46504;" value="ROES" vertex="1">
           <mxGeometry height="540" width="210" x="160" y="20" as="geometry" />
         </mxCell>
         <mxCell id="T4Uma_Gl5So71yVu4-01-10" parent="T4Uma_Gl5So71yVu4-01-3" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fad7ac;strokeColor=#b46504;" value="Order + Product Data" vertex="1">
@@ -511,7 +511,7 @@
         <mxCell id="T4Uma_Gl5So71yVu4-01-31" edge="1" parent="T4Uma_Gl5So71yVu4-01-3" source="T4Uma_Gl5So71yVu4-01-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.967;exitY=0.875;exitDx=0;exitDy=0;exitPerimeter=0;" target="T4Uma_Gl5So71yVu4-01-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T4Uma_Gl5So71yVu4-01-4" parent="T4Uma_Gl5So71yVu4-01-1" style="swimlane;html=1;startSize=20;" value="RAID 1" vertex="1">
+        <mxCell id="T4Uma_Gl5So71yVu4-01-4" parent="T4Uma_Gl5So71yVu4-01-1" style="swimlane;html=1;startSize=20;fillColor=#b0e3e6;strokeColor=#0e8088;" value="RAID 1" vertex="1">
           <mxGeometry height="540" width="150" x="370" y="20" as="geometry" />
         </mxCell>
         <mxCell id="T4Uma_Gl5So71yVu4-01-14" parent="T4Uma_Gl5So71yVu4-01-4" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#b0e3e6;strokeColor=#0e8088;" value="/`incoming orders" vertex="1">
@@ -520,7 +520,7 @@
         <mxCell id="T4Uma_Gl5So71yVu4-01-38" parent="T4Uma_Gl5So71yVu4-01-4" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#b1ddf0;strokeColor=#10739e;" value="Permanent Workflow Files" vertex="1">
           <mxGeometry height="80" width="60" x="45" y="180" as="geometry" />
         </mxCell>
-        <mxCell id="T4Uma_Gl5So71yVu4-01-6" parent="T4Uma_Gl5So71yVu4-01-1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" value="Server2000" vertex="1">
+        <mxCell id="T4Uma_Gl5So71yVu4-01-6" parent="T4Uma_Gl5So71yVu4-01-1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="Server2000" vertex="1">
           <mxGeometry height="540" width="150" x="520" y="20" as="geometry" />
         </mxCell>
         <mxCell id="T4Uma_Gl5So71yVu4-01-16" parent="T4Uma_Gl5So71yVu4-01-6" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d0cee2;strokeColor=#56517e;" value="Order Intake" vertex="1">
@@ -529,7 +529,7 @@
         <mxCell id="T4Uma_Gl5So71yVu4-01-27" parent="T4Uma_Gl5So71yVu4-01-6" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#bac8d3;strokeColor=#23445d;" value="Labworks" vertex="1">
           <mxGeometry height="80" width="80" x="35" y="440" as="geometry" />
         </mxCell>
-        <mxCell id="T4Uma_Gl5So71yVu4-01-7" parent="T4Uma_Gl5So71yVu4-01-1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" value="RAID 26" vertex="1">
+        <mxCell id="T4Uma_Gl5So71yVu4-01-7" parent="T4Uma_Gl5So71yVu4-01-1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" value="RAID 26" vertex="1">
           <mxGeometry height="540" width="200" x="670" y="20" as="geometry" />
         </mxCell>
         <mxCell id="T4Uma_Gl5So71yVu4-01-17" parent="T4Uma_Gl5So71yVu4-01-7" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fad7ac;strokeColor=#b46504;" value="Order .RO files" vertex="1">
@@ -538,7 +538,7 @@
         <mxCell id="T4Uma_Gl5So71yVu4-01-22" parent="T4Uma_Gl5So71yVu4-01-7" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fad7ac;strokeColor=#b46504;" value="Order Images" vertex="1">
           <mxGeometry height="80" width="120" x="50" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="T4Uma_Gl5So71yVu4-01-8" parent="T4Uma_Gl5So71yVu4-01-1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" value="Repri" vertex="1">
+        <mxCell id="T4Uma_Gl5So71yVu4-01-8" parent="T4Uma_Gl5So71yVu4-01-1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" value="Repri" vertex="1">
           <mxGeometry height="540" width="190" x="870" y="20" as="geometry" />
         </mxCell>
         <mxCell id="T4Uma_Gl5So71yVu4-01-29" edge="1" parent="T4Uma_Gl5So71yVu4-01-8" source="T4Uma_Gl5So71yVu4-01-20" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.883;exitY=0.967;exitDx=0;exitDy=0;exitPerimeter=0;" target="T4Uma_Gl5So71yVu4-01-26">

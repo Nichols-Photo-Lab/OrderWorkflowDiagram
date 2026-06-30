@@ -200,7 +200,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Detailed" id="ibqqQbgHfbbPR_2iqoen">
-    <mxGraphModel dx="1301" dy="1859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1951" dy="2239" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="t_mpoE3g2Y7PHNGB8f9t-0" />
         <mxCell id="t_mpoE3g2Y7PHNGB8f9t-1" parent="t_mpoE3g2Y7PHNGB8f9t-0" />
@@ -489,10 +489,10 @@
             <mxPoint x="5" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hwx3xLd2eooySpKakgDh-6" connectable="0" parent="t_mpoE3g2Y7PHNGB8f9t-1" style="group" value="" vertex="1">
+        <mxCell id="hwx3xLd2eooySpKakgDh-6" connectable="0" parent="t_mpoE3g2Y7PHNGB8f9t-1" style="group;fillColor=none;" value="" vertex="1">
           <mxGeometry height="310" width="470" x="340" y="-1040" as="geometry" />
         </mxCell>
-        <mxCell id="t_mpoE3g2Y7PHNGB8f9t-3" parent="hwx3xLd2eooySpKakgDh-6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value=" " vertex="1">
+        <mxCell id="t_mpoE3g2Y7PHNGB8f9t-3" parent="hwx3xLd2eooySpKakgDh-6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;glass=0;shadow=0;dashed=1;fillStyle=hatch;" value=" " vertex="1">
           <mxGeometry height="287.3170731707317" width="470.00000000000006" y="22.682926829268354" as="geometry" />
         </mxCell>
         <mxCell id="t_mpoE3g2Y7PHNGB8f9t-4" parent="hwx3xLd2eooySpKakgDh-6" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;network2Icon=mxgraph.networks2.cloud;network2IconYOffset=-0.08;network2IconW=1.0004;network2IconH=0.7222;" value="GotPhoto" vertex="1">
@@ -549,6 +549,9 @@
         </mxCell>
         <mxCell id="t_mpoE3g2Y7PHNGB8f9t-59" edge="1" parent="hwx3xLd2eooySpKakgDh-6" source="t_mpoE3g2Y7PHNGB8f9t-54" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.005;entryY=0.545;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="t_mpoE3g2Y7PHNGB8f9t-5">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8MysoWVFNgXKD31CXdVa-1" parent="hwx3xLd2eooySpKakgDh-6" style="shape=note;size=20;whiteSpace=wrap;html=1;" value="&amp;nbsp;All of this happens off premesis" vertex="1">
+          <mxGeometry height="100" width="100" x="35" y="190" as="geometry" />
         </mxCell>
         <mxCell id="m8FGLosefOx2cV8Kbhlu-11" edge="1" parent="t_mpoE3g2Y7PHNGB8f9t-1" source="t_mpoE3g2Y7PHNGB8f9t-5" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.521;exitY=0.991;exitDx=0;exitDy=0;exitPerimeter=0;" value=" ">
           <mxGeometry relative="1" as="geometry">
